@@ -24,6 +24,7 @@ Node::~Node(){
 }
 
 void List::insert(int d,int idx){	
+	size++;
 	Node *n = new Node;
 	n->data = d;
 	
